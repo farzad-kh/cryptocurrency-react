@@ -40,7 +40,7 @@ import { Avatar, Button, Layout, Menu, theme } from 'antd';
 import { NavLink, Link } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import { NavContext } from '../../context/NavLayout/NavContextPro';
-import Exchange from '../pages/Exchange';
+ 
 import icon from "../../images/cryptocurrency.png"
 
 const { Header, Sider, Content } = Layout;
@@ -83,17 +83,8 @@ const NavbarMain = () => {
                 Cryptocurrency
               </Menu.Item>
             </NavLink >
-            <NavLink className={"nav-list"} to='/exchanges'>
-              <Menu.Item key={3} icon={<MoneyCollectOutlined style={{ fontSize: collapsed && "16px" }} />}  >
-                Exchange
 
-              </Menu.Item>
-            </NavLink  >
-            <NavLink className={"nav-list"} to='/news'>
-              <Menu.Item key={4} icon={<BulbOutlined style={{ fontSize: collapsed && "16px" }} />}  >
-                News
-              </Menu.Item>
-            </NavLink>
+          
 
 
 

@@ -19,8 +19,7 @@ const TabBar = () => {
       href: "/cryptocurrency",
       activeClassName: "/cryptocurrency",
     },
-    { name: "Exchanges", href: "/exchanges", activeClassName: "/exchanges" },
-    { name: "News", href: "/news", activeClassName: "/news" },
+    
   ];
 
   const [activeNav, setActiveNav] = useState({

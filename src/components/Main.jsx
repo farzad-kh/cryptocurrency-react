@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import Cryptocurrency from './pages/Cryptocurrencies';
-import Exchange from './pages/Exchange';
+ ;
 import Home from './pages/Home';
 import News from './pages/News';
 import CryptoDetails from './pages/CryptoDetails';
@@ -84,8 +84,7 @@ const Main = () => {
                         <Route path='/' element={<Home />} />
                         <Route path='/cryptocurrency' element={<Cryptocurrency />} />
                         <Route path='/crypto/:coinId' element={<CryptoDetails />} />
-                        <Route path='/exchanges' element={<Exchange />} />
-                        <Route path='/news' element={<News />} />
+                    
 
                     </Routes>
 
